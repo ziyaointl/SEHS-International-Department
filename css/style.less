@@ -1,23 +1,74 @@
 @import "../bower_components/bootstrap/less/bootstrap.less";
 @import "navbar.less";
+@icon-font-path: "../bower_components/bootstrap/fonts/";
 
 /* Extra small devices (phones, less than 768px) */
+
+
 /* No media query since this is the default in Bootstrap */
+
+.glyphicon {
+    margin-right: 3px;
+}
+
 #logo {
-	height: 50px;
-	margin-top: -8px;
+    height: 100px;
+    margin-top: -18px;
+}
+
+.nav li > a {
+	font-size: 16px;
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
 
+@media (min-width: @screen-sm-min) {
+    .nav li > a:after {
+        content: "";
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 120%;
+        margin-left: -10%;
+        margin-top: 5px;
+        background: white;
+        .transition(all .2s ease-in-out);
+    }
 }
+
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
 
-}
+@media (min-width: @screen-md-min) {}
+
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
 
+@media (min-width: @screen-lg-min) {}
+
+
+#cover-photo {
+	margin-top: 50px;
+	padding: 0px;
+	height: 600px;
+	overflow: hidden;
+}
+
+#cover-photo > img {
+	width: 100%;
+}
+
+#cover-description {
+	margin-top: -200px;
+	height: 350px;
+	background-color: hsla(0, 0%, 80%, 0.9);
+}
+
+#title {
+	
+}
+
+.borderedw {
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
 }
