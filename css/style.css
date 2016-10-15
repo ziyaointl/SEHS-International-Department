@@ -6922,3 +6922,12 @@ button.close {
 #individual-name {
   color: white;
 }
+#featured-clubs {
+  background-color: #e6e6e6;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.club-image {
+  width: 100%;
+  margin-top: 50px;
+}
