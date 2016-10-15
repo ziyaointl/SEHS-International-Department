@@ -6820,7 +6820,7 @@ button.close {
 #news-image {
   width: 100%;
 }
-#news-col {
+.section-col {
   margin-top: 40px;
 }
 .news-title {
@@ -6865,7 +6865,34 @@ button.close {
 }
 #outstanding-individual {
   background-color: #BA3B39;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-#outstanding-individual h1 {
+#outstanding-individual h1,
+#outstanding-individual p {
   color: white;
+}
+#outstanding-individual p {
+  font-size: 16px;
+}
+#outstanding-image {
+  width: 100%;
+}
+#individual-read-more {
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  border-radius: 0px;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  right: 20px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+#individual-read-more:hover {
+  background-color: white;
+  color: #BA3B39;
 }
