@@ -6741,9 +6741,9 @@ button.close {
 .glyphicon {
   margin-right: 3px;
 }
-#logo {
+#logo-with-text {
   height: 100px;
-  margin-top: -18px;
+  margin-top: -36px;
 }
 .nav li > a {
   font-size: 16px;
