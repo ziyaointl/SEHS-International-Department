@@ -6883,6 +6883,7 @@ button.close {
   border-style: solid;
   border-color: white;
   border-radius: 0px;
+  border-width: 2px;
   font-size: 18px;
   color: white;
   position: absolute;
@@ -6895,4 +6896,29 @@ button.close {
 #individual-read-more:hover {
   background-color: white;
   color: #BA3B39;
+}
+#individual-title {
+  display: inline-block;
+}
+#previously-featured {
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  border-radius: 0px;
+  border-width: 2px;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  right: 20px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+#previously-featured:hover {
+  background-color: white;
+  color: #BA3B39;
+}
+#individual-name {
+  color: white;
 }
