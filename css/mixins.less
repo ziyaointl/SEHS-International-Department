@@ -1,0 +1,22 @@
+.gray(@percent) {
+    color: lighten(@black, percentage(@percent / 100));
+}
+
+.transition (@transition) {
+    -webkit-transition: @transition;
+    -moz-transition: @transition;
+    -o-transition: @transition;
+    transition: @transition;
+}
+
+.background-size (@size) {
+    webkit-background-size: @size;
+    -moz-background-size: @size;
+    -o-background-size: @size;
+    background-size: @size;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}

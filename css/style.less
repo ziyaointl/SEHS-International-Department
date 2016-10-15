@@ -1,11 +1,17 @@
 @import "../bower_components/bootstrap/less/bootstrap.less";
 @import "navbar.less";
+@import "mixins.less";
 @icon-font-path: "../bower_components/bootstrap/fonts/";
 
 /* Extra small devices (phones, less than 768px) */
 
 
 /* No media query since this is the default in Bootstrap */
+.bordered {
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+}
 
 .glyphicon {
     margin-right: 3px;
@@ -64,18 +70,40 @@
 	padding: 50px;
 	padding-left: 70px;
 	padding-right: 70px;
+	// position: relative;
 }
 
 #cover-description > a {
 	color: hsla(0, 0%, 20%, 1);
 }
 
-#title {
-	
+#read-more {
+	position: absolute;
+	bottom: 60px;
+	right: 70px;
+	border-radius: 0px;
+	border-width: 2px;
+	border-color: hsla(0, 0%, 20%, 1);
+	background-color: hsla(0, 0%, 80%, 0);
+	font-size: 18px;
+	.transition(.2s);
 }
 
-.bordered {
-	border-style: solid;
-	border-color: black;
-	border-width: 3px;
+#read-more:hover {
+	background-color: hsla(0, 0%, 20%, 1);
+	color: white;
+}
+
+.horizontal-line {
+	height: 0px;
+	width: 104%;
+	margin-left: -2%;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+
+#news {
+	margin-top: 30px;
+	margin-bottom: 200px;
 }
