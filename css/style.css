@@ -6764,8 +6764,14 @@ button.close {
   margin-top: -200px;
   height: 350px;
   background-color: rgba(204, 204, 204, 0.9);
+  padding: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
-.borderedw {
+#cover-description > a {
+  color: #333333;
+}
+.bordered {
   border-style: solid;
   border-color: black;
   border-width: 3px;
