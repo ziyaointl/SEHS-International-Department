@@ -6866,7 +6866,7 @@ button.close {
 #outstanding-individual {
   background-color: #BA3B39;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 #outstanding-individual h1,
 #outstanding-individual p {
@@ -6986,4 +6986,39 @@ button.close {
 #more-clubs:hover {
   background-color: #333333;
   color: white;
+}
+#footer {
+  height: 300px;
+  background-color: #333333;
+}
+.footer-title {
+  color: #b3b3b3;
+  margin-bottom: 20px;
+}
+.footer-link {
+  color: #b3b3b3;
+}
+.footer-link:hover {
+  color: #b3b3b3;
+}
+.horizontal-line-footer {
+  height: 0px;
+  width: 104%;
+  margin-left: -2%;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-width: 1px;
+  border-color: #b3b3b3;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+#copyright-left {
+  color: #b3b3b3;
+}
+#copyright-right {
+  color: #b3b3b3;
+  position: absolute;
+  top: 0px;
+  right: 10px;
 }
