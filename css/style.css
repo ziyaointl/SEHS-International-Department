@@ -6853,7 +6853,7 @@ button.close {
   color: white;
 }
 #about-us {
-  background-color: #6DA06B;
+  background-color: #999999;
   height: 300px;
   text-align: center;
   padding: 100px;
@@ -6988,7 +6988,6 @@ button.close {
   color: white;
 }
 #footer {
-  height: 300px;
   background-color: #333333;
 }
 .footer-title {
