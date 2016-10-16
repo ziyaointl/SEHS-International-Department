@@ -208,7 +208,39 @@
 	padding-bottom: 100px;
 }
 
-.club-image {
+.club-frame {
+	position: relative;
+}
+
+.overlay {
+	height: 100%;
 	width: 100%;
-	margin-top: 50px;
+	background-color: transparent;
+	position: absolute;
+	top: 0px;
+	.transition(.2s);
+}
+
+.overlay:hover {
+	background-color: hsla(0, 0%, 10%, 0.6);
+}
+
+.floor-fade {
+	.gradient(transparent, hsla(0, 0%, 10%, 0.6));
+	position: absolute;
+	bottom: 0px;
+	height: 50%;
+	width: 100%;
+}
+
+.club-title {
+	color: white;
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	font-weight: 300;
+}
+
+.club-img {
+	width: 100%;
 }

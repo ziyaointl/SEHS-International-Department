@@ -6927,7 +6927,42 @@ button.close {
   padding-top: 50px;
   padding-bottom: 100px;
 }
-.club-image {
+.club-frame {
+  position: relative;
+}
+.overlay {
+  height: 100%;
   width: 100%;
-  margin-top: 50px;
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.overlay:hover {
+  background-color: rgba(26, 26, 26, 0.6);
+}
+.floor-fade {
+  background-color: transparent;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(26, 26, 26, 0.6)));
+  background: -webkit-linear-gradient(top, transparent, rgba(26, 26, 26, 0.6));
+  background: -moz-linear-gradient(top, transparent, rgba(26, 26, 26, 0.6));
+  background: -ms-linear-gradient(top, transparent, rgba(26, 26, 26, 0.6));
+  background: -o-linear-gradient(top, transparent, rgba(26, 26, 26, 0.6));
+  position: absolute;
+  bottom: 0px;
+  height: 50%;
+  width: 100%;
+}
+.club-title {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  font-weight: 300;
+}
+.club-img {
+  width: 100%;
 }
