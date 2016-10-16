@@ -6900,7 +6900,7 @@ button.close {
 #individual-title {
   display: inline-block;
 }
-#previously-featured {
+#more-individuals {
   background-color: transparent;
   border-style: solid;
   border-color: white;
@@ -6915,7 +6915,7 @@ button.close {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-#previously-featured:hover {
+#more-individuals:hover {
   background-color: white;
   color: #BA3B39;
 }
@@ -6964,4 +6964,26 @@ button.close {
 }
 .club-img {
   width: 100%;
+}
+#featured-clubs-title {
+  display: inline-block;
+}
+#more-clubs {
+  background-color: transparent;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  border-width: 2px;
+  border-color: #333333;
+  border-radius: 0px;
+  color: #333333;
+  font-size: 18px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+#more-clubs:hover {
+  background-color: #333333;
+  color: white;
 }
