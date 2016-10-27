@@ -8,5 +8,57 @@
 @navbar-default-link-color: white;
 @navbar-default-link-hover-color: white;
 @navbar-default-link-active-color:  @navbar-default-link-color;
-@navbar-default-link-active-bg: lighten(#424242, 20%);
+@navbar-default-link-active-bg: hsla(0, 0%, 28%, 1);
 @navbar-default-toggle-hover-bg: transparent;
+
+.nav li > a {
+    font-size: 16px;
+}
+
+// .dropdown-menu li:hover .sub-menu {
+//     visibility: visible;
+// }
+
+.dropdown .dropdown-menu {
+//This keeps the dropdown menu centered
+    width:200px;
+    left:50%;
+    margin-left:-100px;
+//-------------------------------------
+    text-align: center;
+    margin-top: -40px !important;
+}
+
+//== Dropdowns
+//
+//## Dropdown menu container and contents.
+
+//** Background for the dropdown menu.
+@dropdown-bg:                    hsla(0, 0%, 28%, 1);
+//** Dropdown menu `border-color`.
+@dropdown-border:                transparent;
+//** Dropdown menu `border-color` **for IE8**.
+@dropdown-fallback-border:       #ccc;
+//** Divider color for between dropdown items.
+@dropdown-divider-bg:            #e5e5e5;
+
+//** Dropdown link text color.
+@dropdown-link-color:            white;
+//** Hover color for dropdown links.
+@dropdown-link-hover-color:      white;
+//** Hover background for dropdown links.
+@dropdown-link-hover-bg:         hsla(0, 0%, 38%, 1);
+
+//** Active dropdown menu item text color.
+@dropdown-link-active-color:     @component-active-color;
+//** Active dropdown menu item background color.
+@dropdown-link-active-bg:        @component-active-bg;
+
+//** Disabled dropdown menu item background color.
+@dropdown-link-disabled-color:   @gray-light;
+
+//** Text color for headers within dropdown menus.
+@dropdown-header-color:          @gray-light;
+
+//** Deprecated `@dropdown-caret-color` as of v3.1.0
+@dropdown-caret-color:           #000;
