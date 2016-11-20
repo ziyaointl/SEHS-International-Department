@@ -8,6 +8,17 @@
 
 /* No media query since this is the default in Bootstrap */
 
+.row {
+    clear: both;
+}
+
+.embed-video {
+    width: 640px;
+    height: 498px;
+    margin: auto;
+    display: block;
+}
+
 #logo {
     height: 50px;
     margin-top: -16px;
@@ -253,7 +264,8 @@
 }
 
 #individual-read-more {
-    position: absolute;
+    margin-top: 15px;
+    float: right;
     background-color: transparent;
     border-style: solid;
     border-color: white;
@@ -261,8 +273,6 @@
     border-width: 2px;
     font-size: 18px;
     color: white;
-    position: absolute;
-    right: 20px;
     .transition(.2s);
 }
 
@@ -332,14 +342,13 @@
 }
 
 #featured-clubs-title {
-    display: inline-block;
+    float: left;
 }
 
 #more-clubs {
     background-color: transparent;
-    position: absolute;
-    right: 20px;
-    top: 10px;
+    float: right;
+    margin-top: 15px;
     border-width: 2px;
     border-color: hsla(0, 0%, 20%, 1);
     border-radius: 0px;

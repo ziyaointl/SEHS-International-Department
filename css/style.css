@@ -6746,6 +6746,15 @@ button.close {
 }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+.row {
+  clear: both;
+}
+.embed-video {
+  width: 640px;
+  height: 498px;
+  margin: auto;
+  display: block;
+}
 #logo {
   height: 50px;
   margin-top: -16px;
@@ -6957,6 +6966,8 @@ button.close {
   width: 100%;
 }
 #individual-read-more {
+  margin-top: 15px;
+  float: right;
   background-color: transparent;
   border-style: solid;
   border-color: white;
@@ -6964,8 +6975,6 @@ button.close {
   border-width: 2px;
   font-size: 18px;
   color: white;
-  position: absolute;
-  right: 20px;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
@@ -6979,6 +6988,8 @@ button.close {
   display: inline-block;
 }
 #more-individuals {
+  margin-top: 15px;
+  float: right;
   background-color: transparent;
   border-style: solid;
   border-color: white;
@@ -6986,8 +6997,6 @@ button.close {
   border-width: 2px;
   font-size: 18px;
   color: white;
-  position: absolute;
-  right: 20px;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
@@ -7044,13 +7053,12 @@ button.close {
   width: 100%;
 }
 #featured-clubs-title {
-  display: inline-block;
+  float: left;
 }
 #more-clubs {
   background-color: transparent;
-  position: absolute;
-  right: 20px;
-  top: 10px;
+  float: right;
+  margin-top: 15px;
   border-width: 2px;
   border-color: #333333;
   border-radius: 0px;
