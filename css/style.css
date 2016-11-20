@@ -7184,3 +7184,7 @@ button.close {
   text-decoration: none;
   color: #6e6e6e;
 }
+.page-title {
+  text-align: center;
+  margin-top: 50px;
+}
