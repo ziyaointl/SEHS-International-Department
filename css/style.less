@@ -8,6 +8,16 @@
 
 /* No media query since this is the default in Bootstrap */
 
+#copyright-left {
+    color: hsla(0, 0%, 70%, 1);
+    float: left;
+}
+
+#copyright-right {
+    color: hsla(0, 0%, 70%, 1);
+    float: right;
+}
+
 .row {
     clear: both;
 }
@@ -50,6 +60,13 @@
 
 .glyphicon {
     margin-right: 3px;
+}
+
+@media (max-width: @screen-xs-max) {
+    #copyright-right {
+        float: left;
+        clear: left;
+    }
 }
 
 @media (max-width: @screen-sm-max) {
@@ -165,10 +182,11 @@
     color: hsla(0, 0%, 20%, 1);
 }
 
-#read-more {
+.read-more {
     // position: absolute;
     // bottom: 60px;
     // right: 70px;
+    color: black;
     margin-top: 20px;
     float: right;
     border-radius: 0px;
@@ -177,11 +195,12 @@
     background-color: hsla(0, 0%, 80%, 0);
     font-size: 18px;
     .transition(.2s);
+    margin-bottom: 20px;
 }
 
-#read-more:hover {
+.read-more:hover {
     background-color: hsla(0, 0%, 20%, 1);
-    color: white;
+    color: white !important;
 }
 
 .horizontal-line {
@@ -222,7 +241,7 @@
 }
 
 #news-button {
-    #read-more;
+    .read-more;
     bottom: -50px;
     right: 50px;
     .transition(.2s);
@@ -388,17 +407,6 @@
     margin-bottom: 10px;
 }
 
-#copyright-left {
-    color: hsla(0, 0%, 70%, 1);
-}
-
-#copyright-right {
-    color: hsla(0, 0%, 70%, 1);
-    position: absolute;
-    top: 0px;
-    right: 10px;
-}
-
 .post-title {
     margin: 20px;
 }
@@ -474,19 +482,57 @@
 .catalog-post-title {
     font-weight: 300;
     color: black;
+    text-decoration: none !important;
 }
 
 .catalog-post-title:hover {
-    text-decoration: none;
+    text-decoration: none !important;
     color: #6e6e6e;
 }
 
 .catalog-post-title:active {
-    text-decoration: none;
+    text-decoration: none !important;
     color: #6e6e6e;
 }
 
 .page-title {
     text-align: center;
-    margin-top: 50px;
+}
+
+.catalog, .post{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.page-numbers {
+    .btn;
+    .read-more;
+    float: none;
+    margin: 10px;
+}
+
+.page-numbers:hover {
+    background-color: hsla(0, 0%, 20%, 1);
+    color: white !important;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination-outer {
+    text-align: center;
+}
+
+.page-numbers.current {
+    background-color: hsla(0, 0%, 20%, 1);
+    color: white !important;
+}
+
+.next-page {
+    float: right !important;
+}
+
+.previous-page {
+    float: left !important;
 }

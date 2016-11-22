@@ -6746,6 +6746,14 @@ button.close {
 }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+#copyright-left {
+  color: #b3b3b3;
+  float: left;
+}
+#copyright-right {
+  color: #b3b3b3;
+  float: right;
+}
 .row {
   clear: both;
 }
@@ -6779,6 +6787,12 @@ button.close {
 }
 .glyphicon {
   margin-right: 3px;
+}
+@media (max-width: 767px) {
+  #copyright-right {
+    float: left;
+    clear: left;
+  }
 }
 @media (max-width: 991px) {
   #cover-description {
@@ -6873,7 +6887,8 @@ button.close {
 #cover-description > a {
   color: #333333;
 }
-#read-more {
+.read-more {
+  color: black;
   margin-top: 20px;
   float: right;
   border-radius: 0px;
@@ -6885,10 +6900,11 @@ button.close {
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+  margin-bottom: 20px;
 }
-#read-more:hover {
+.read-more:hover {
   background-color: #333333;
-  color: white;
+  color: white !important;
 }
 .horizontal-line {
   height: 0px;
@@ -6921,6 +6937,7 @@ button.close {
   font-style: italic;
 }
 #news-button {
+  color: black;
   margin-top: 20px;
   float: right;
   border-radius: 0px;
@@ -6928,6 +6945,7 @@ button.close {
   border-color: #333333;
   background-color: rgba(204, 204, 204, 0);
   font-size: 18px;
+  margin-bottom: 20px;
   bottom: -50px;
   right: 50px;
   -webkit-transition: 0.2s;
@@ -7101,15 +7119,6 @@ button.close {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-#copyright-left {
-  color: #b3b3b3;
-}
-#copyright-right {
-  color: #b3b3b3;
-  position: absolute;
-  top: 0px;
-  right: 10px;
-}
 .post-title {
   margin: 20px;
 }
@@ -7175,16 +7184,111 @@ button.close {
 .catalog-post-title {
   font-weight: 300;
   color: black;
+  text-decoration: none !important;
 }
 .catalog-post-title:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #6e6e6e;
 }
 .catalog-post-title:active {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #6e6e6e;
 }
 .page-title {
   text-align: center;
-  margin-top: 50px;
+}
+.catalog,
+.post {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.page-numbers {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: black;
+  margin-top: 20px;
+  float: right;
+  border-radius: 0px;
+  border-width: 2px;
+  border-color: #333333;
+  background-color: rgba(204, 204, 204, 0);
+  font-size: 18px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  margin-bottom: 20px;
+  float: none;
+  margin: 10px;
+}
+.page-numbers:focus,
+.page-numbers:active:focus,
+.page-numbers.active:focus,
+.page-numbers.focus,
+.page-numbers:active.focus,
+.page-numbers.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.page-numbers:hover,
+.page-numbers:focus,
+.page-numbers.focus {
+  color: #333;
+  text-decoration: none;
+}
+.page-numbers:active,
+.page-numbers.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.page-numbers.disabled,
+.page-numbers[disabled],
+fieldset[disabled] .page-numbers {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a.page-numbers.disabled,
+fieldset[disabled] a.page-numbers {
+  pointer-events: none;
+}
+.page-numbers:hover {
+  background-color: #333333;
+  color: white !important;
+}
+.pagination {
+  display: inline-block;
+}
+.pagination-outer {
+  text-align: center;
+}
+.page-numbers.current {
+  background-color: #333333;
+  color: white !important;
+}
+.next-page {
+  float: right !important;
+}
+.previous-page {
+  float: left !important;
 }
