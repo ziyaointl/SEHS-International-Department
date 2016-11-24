@@ -6916,7 +6916,7 @@ button.close {
 }
 #news {
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 #news-image {
   width: 100%;
@@ -6925,7 +6925,6 @@ button.close {
   margin-top: 40px;
 }
 .news-title {
-  font-weight: 400;
   color: black;
   font-size: 30px;
 }
@@ -6958,24 +6957,24 @@ button.close {
   color: white;
 }
 #about-us {
-  background-color: #999999;
-  height: 300px;
+  background: url(../img/video-background.png) no-repeat center center;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
-  padding: 100px;
+  padding: 50px;
+  padding-top: 20px;
   color: white;
 }
 #about-us h1,
 #about-us h3 {
-  font-weight: 100;
+  font-weight: 300;
+  padding-bottom: 15px;
 }
 #outstanding-individual {
-  background-color: #BA3B39;
   padding-top: 50px;
   padding-bottom: 100px;
-}
-#outstanding-individual h1,
-#outstanding-individual p {
-  color: white;
 }
 #outstanding-individual p {
   font-size: 16px;
@@ -6988,19 +6987,19 @@ button.close {
   float: right;
   background-color: transparent;
   border-style: solid;
-  border-color: white;
+  border-color: black;
   border-radius: 0px;
   border-width: 2px;
   font-size: 18px;
-  color: white;
+  color: black;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
 }
 #individual-read-more:hover {
-  background-color: white;
-  color: #BA3B39;
+  background-color: black;
+  color: white;
 }
 #individual-title {
   display: inline-block;
@@ -7010,24 +7009,25 @@ button.close {
   float: right;
   background-color: transparent;
   border-style: solid;
-  border-color: white;
+  border-color: black;
   border-radius: 0px;
   border-width: 2px;
   font-size: 18px;
-  color: white;
+  color: black;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
 }
 #more-individuals:hover {
-  background-color: white;
-  color: #BA3B39;
-}
-#individual-name {
+  background-color: black;
   color: white;
 }
+#individual-name {
+  color: black;
+}
 #featured-clubs {
+  background-color: #434343;
   padding-top: 50px;
   padding-bottom: 100px;
 }
@@ -7072,15 +7072,16 @@ button.close {
 }
 #featured-clubs-title {
   float: left;
+  color: white;
 }
 #more-clubs {
   background-color: transparent;
   float: right;
   margin-top: 15px;
   border-width: 2px;
-  border-color: #333333;
+  border-color: white;
   border-radius: 0px;
-  color: #333333;
+  color: white;
   font-size: 18px;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -7088,8 +7089,8 @@ button.close {
   transition: 0.2s;
 }
 #more-clubs:hover {
-  background-color: #333333;
-  color: white;
+  background-color: white;
+  color: black;
 }
 #footer {
   background-color: #333333;
@@ -7291,4 +7292,7 @@ fieldset[disabled] a.page-numbers {
 }
 .previous-page {
   float: left !important;
+}
+h1 {
+  font-weight: 200;
 }

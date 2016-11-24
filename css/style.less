@@ -214,7 +214,7 @@
 
 #news {
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #news-image {
@@ -226,7 +226,6 @@
 }
 
 .news-title {
-    font-weight: 400;
     color: black;
     font-size: 30px;
 }
@@ -254,23 +253,25 @@
 
 #about-us {
     // background-color: #6DA06B;
-    background-color: hsla(0, 0%, 60%, 1);
-    height: 300px;
+    background: url(../img/video-background.png) no-repeat center center;
+    .background-size(cover);
     text-align: center;
-    padding: 100px;
+    padding: 50px;
+    padding-top: 20px;
     color: white;
     h1,
     h3 {
-        font-weight: 100;
+        font-weight: 300;
+        padding-bottom: 15px;
     }
 }
 
 #outstanding-individual {
-    background-color: #BA3B39;
-    h1,
-    p {
-        color: white;
-    }
+    //background-color: #BA3B39;
+    //h1,
+    //p {
+    //    color: white;
+    //}
     p {
         font-size: 16px;
     }
@@ -287,17 +288,17 @@
     float: right;
     background-color: transparent;
     border-style: solid;
-    border-color: white;
+    border-color: black;
     border-radius: 0px;
     border-width: 2px;
     font-size: 18px;
-    color: white;
+    color: black;
     .transition(.2s);
 }
 
 #individual-read-more:hover {
-    background-color: white;
-    color: #BA3B39;
+    background-color: black;
+    color: white;
 }
 
 #individual-title {
@@ -309,16 +310,18 @@
 }
 
 #more-individuals:hover {
-    background-color: white;
-    color: #BA3B39;
-}
-
-#individual-name {
+    background-color: black;
     color: white;
 }
 
+#individual-name {
+    color: black;
+}
+
 #featured-clubs {
-    // background-color: hsla(0, 0%, 90%, 1);
+    background-color: #434343;
+    //background: url(../img/individual-background.png) no-repeat center center;
+    //.background-size(cover);
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -362,6 +365,7 @@
 
 #featured-clubs-title {
     float: left;
+    color: white;
 }
 
 #more-clubs {
@@ -369,16 +373,16 @@
     float: right;
     margin-top: 15px;
     border-width: 2px;
-    border-color: hsla(0, 0%, 20%, 1);
+    border-color: white;
     border-radius: 0px;
-    color: hsla(0, 0%, 20%, 1);
+    color: white;
     font-size: 18px;
     .transition(.2s);
 }
 
 #more-clubs:hover {
-    background-color: hsla(0, 0%, 20%, 1);
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 #footer {
@@ -535,4 +539,8 @@
 
 .previous-page {
     float: left !important;
+}
+
+h1 {
+    font-weight: 200;
 }
