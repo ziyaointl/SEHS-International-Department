@@ -29,25 +29,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="176" column="29" selection-start-line="176" selection-start-column="29" selection-end-line="176" selection-end-column="29" />
+            <state relative-caret-position="219">
+              <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-              <folding>
-                <marker date="1479966439000" expanded="true" signature="149660:149770" ph="{...}" />
-                <marker date="1479966439000" expanded="true" signature="150286:150385" ph="{...}" />
-                <marker date="1479966439000" expanded="true" signature="150510:150524" ph="{...}" />
-                <marker date="1479966439000" expanded="true" signature="151782:151900" ph="{...}" />
-                <marker date="1479966439000" expanded="true" signature="152459:152462" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +39,38 @@
       <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="324" column="22" selection-start-line="324" selection-start-column="22" selection-end-line="324" selection-end-column="22" />
+            <state relative-caret-position="361">
+              <caret line="533" column="28" selection-start-line="533" selection-start-column="28" selection-end-line="533" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boxshadow-helper.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/boxshadow-helper.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index-main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1944">
+              <caret line="81" column="86" selection-start-line="81" selection-start-column="86" selection-end-line="81" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/navbar.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -65,8 +79,8 @@
       <file leaf-file-name="mixins.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/mixins.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="576">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -80,8 +94,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/mixins.less" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/style.less" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -93,6 +107,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5">
     <include_path>
       <path value="/Applications/MAMP/htdocs" />
@@ -100,8 +117,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="720" />
-    <option name="height" value="873" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -128,10 +145,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEHS-International-Department" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEHS-International-Department" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEHS-International-Department" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEHS-International-Department" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEHS-International-Department" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
@@ -193,6 +241,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="79e19b18-9e39-4212-87d1-42e15d23ea6b" name="Default" comment="" />
@@ -202,18 +253,20 @@
       <updated>1479538976531</updated>
       <workItem from="1479538979696" duration="21171000" />
       <workItem from="1479791034107" duration="2691000" />
-      <workItem from="1479863017608" duration="7498000" />
+      <workItem from="1479863017608" duration="10730000" />
+      <workItem from="1481528674034" duration="2675000" />
+      <workItem from="1481538285566" duration="1371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31360000" />
+    <option name="totallyTimeSpent" value="38638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="720" height="873" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.094444446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -250,6 +303,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33696">
+          <caret line="1404" column="3" selection-start-line="1404" selection-start-column="0" selection-end-line="1404" selection-end-column="3" />
+          <folding>
+            <marker date="1481542129000" expanded="true" signature="153807:153810" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2976">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mixins.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4128">
           <caret line="172" column="94" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="94" />
           <folding />
@@ -261,11 +356,7 @@
         <state relative-caret-position="175056">
           <caret line="7294" column="0" selection-start-line="7294" selection-start-column="0" selection-end-line="7294" selection-end-column="0" />
           <folding>
-            <marker date="1479966439000" expanded="true" signature="149660:149770" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="150286:150385" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="150510:150524" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="151782:151900" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="152459:152462" ph="{...}" />
+            <marker date="1481542129000" expanded="true" signature="153807:153810" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -291,11 +382,7 @@
         <state relative-caret-position="174504">
           <caret line="7271" column="1" selection-start-line="7271" selection-start-column="1" selection-end-line="7271" selection-end-column="1" />
           <folding>
-            <marker date="1479966439000" expanded="true" signature="149660:149770" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="150286:150385" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="150510:150524" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="151782:151900" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="152459:152462" ph="{...}" />
+            <marker date="1481542129000" expanded="true" signature="153807:153810" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -308,40 +395,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/boxshadow-helper.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="81" column="86" selection-start-line="81" selection-start-column="86" selection-end-line="81" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="576">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="11016">
+          <caret line="1476" column="1" selection-start-line="1476" selection-start-column="1" selection-end-line="1476" selection-end-column="1" />
           <folding>
-            <marker date="1479966439000" expanded="true" signature="149660:149770" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="150286:150385" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="150510:150524" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="151782:151900" ph="{...}" />
-            <marker date="1479966439000" expanded="true" signature="152459:152462" ph="{...}" />
+            <marker date="1481542129000" expanded="true" signature="153807:153810" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-new posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="324" column="22" selection-start-line="324" selection-start-column="22" selection-end-line="324" selection-end-column="22" />
+        <state relative-caret-position="361">
+          <caret line="533" column="28" selection-start-line="533" selection-start-column="28" selection-end-line="533" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="176" column="29" selection-start-line="176" selection-start-column="29" selection-end-line="176" selection-end-column="29" />
+        <state relative-caret-position="219">
+          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
           <folding />
         </state>
       </provider>

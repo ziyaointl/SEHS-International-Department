@@ -1,6 +1,7 @@
 @import "../bower_components/bootstrap/less/bootstrap.less";
 @import "navbar.less";
 @import "mixins.less";
+@import "boxshadow-helper.less";
 
 @icon-font-path: "../bower_components/bootstrap/fonts/";
 
@@ -543,4 +544,35 @@
 
 h1 {
     font-weight: 200;
+}
+
+.portrait a img {
+    width: 100%;
+}
+
+.portrait {
+    padding: 20px;
+}
+
+.portrait-title {
+    .boxshadow-helper(1);
+}
+
+.portrait-title h4 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+
+.portrait-title a h2 {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.individual-page {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

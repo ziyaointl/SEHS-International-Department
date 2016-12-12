@@ -6744,6 +6744,49 @@ button.close {
   float: none;
   margin: 0 auto;
 }
+/**
+ * A mixin which helps you to add depth to elements according to the Google Material Design spec:
+ * http://www.google.com/design/spec/layout/layout-principles.html#layout-principles-dimensionality
+ *
+ * Please note that the values given in the specification cannot be used as is. To create the same visual experience
+ * the blur parameter has to be doubled.
+ *
+ * Author: Florian Kutschera (@gefangenimnetz), Conceptboard GmbH (@conceptboardapp)
+ *
+ * Example usage:
+ *
+ * .card {
+ *     width: 95px;
+ *     height: 95px;
+ *     background: #f4f4f4;
+ *     -webkit-transition: all 250ms;
+ *     -moz-transition: all 250ms;
+ *     transition: all 250ms;
+ *     .BoxShadowHelper(1);
+ *     &:hover {
+ *         .BoxShadowHelper(3);
+ *         -webkit-transform: translateY(-5px);
+ *         -moz-transform: translateY(-5px);
+ *         transform: translateY(-5px);
+ *     }
+ * }
+ *
+ */
+.shadow-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.shadow-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.shadow-3 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.shadow-4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.shadow-5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 #copyright-left {
@@ -7295,4 +7338,29 @@ fieldset[disabled] a.page-numbers {
 }
 h1 {
   font-weight: 200;
+}
+.portrait a img {
+  width: 100%;
+}
+.portrait {
+  padding: 20px;
+}
+.portrait-title {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.portrait-title h4 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 200;
+}
+.portrait-title a h2 {
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+}
+.individual-page {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
