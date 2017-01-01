@@ -5,9 +5,19 @@
 
 @icon-font-path: "../bower_components/bootstrap/fonts/";
 
-/* Extra small devices (phones, less than 768px) */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
-/* No media query since this is the default in Bootstrap */
+#video-iframe {
+    width: 100%;
+}
+
+.post p {
+    clear: left;
+}
 
 #copyright-left {
     color: hsla(0, 0%, 70%, 1);
@@ -83,9 +93,25 @@
         margin: 0;
     }
 }
+
+@media (min-width: 500px) {
+    #video-iframe {
+        width: 60%;
+    }
+}
+
 /* Small devices (tablets, 768px and up) */
 
 @media (min-width: @screen-sm-min) {
+    .post p {
+        text-align: justify;
+    }
+
+    #video-iframe {
+        width: 512px;
+        height: 398.4px;
+    }
+
     #logo-with-text {
         height: 100px;
         margin-top: -36px;
@@ -128,9 +154,9 @@
         width: 0px;
     }
 
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
+    //.dropdown:hover .dropdown-menu {
+    //    display: block;
+    //}
 
     .post {
         width: 700px;
@@ -138,8 +164,6 @@
     }
 
     .catalog-img {
-        width: 30%;
-        float: left;
         margin: 20px;
     }
 
@@ -252,9 +276,9 @@
     color: white;
 }
 
-#about-us {
+#featured-video {
     // background-color: #6DA06B;
-    background: url(../img/video-background.png) no-repeat center center;
+    background: url('img/video-background.png') no-repeat center center;
     .background-size(cover);
     text-align: center;
     padding: 50px;
@@ -265,6 +289,7 @@
         font-weight: 300;
         padding-bottom: 15px;
     }
+    margin: 0;
 }
 
 #outstanding-individual {
@@ -321,8 +346,7 @@
 
 #featured-clubs {
     background-color: #434343;
-    //background: url(../img/individual-background.png) no-repeat center center;
-    //.background-size(cover);
+    margin: 0;
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -389,6 +413,7 @@
 #footer {
     background-color: hsla(0, 0%, 20%, 1);
     padding-bottom: 50px;
+    margin: 0;
 }
 
 .footer-title {
@@ -440,6 +465,7 @@
 
 .post {
     position: relative;
+    flex: 1;
 }
 
 .post img {
@@ -470,6 +496,8 @@
 }
 
 .catalog-block {
+    padding-bottom: 20px;
+    padding-top: 20px;
     border-bottom: solid;
     border-width: 1px;
 }
@@ -575,4 +603,13 @@ h1 {
 .individual-page {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.info {
+    padding-left: 30px;
+}
+
+.declaration {
+    background-color: #ededed;
+    padding: 20px;
 }
